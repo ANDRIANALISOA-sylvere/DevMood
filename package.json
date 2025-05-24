@@ -3,6 +3,7 @@
   "displayName": "DevMood",
   "description": "Emotional Analytics for VS CodeReal-time mood detection for developers",
   "version": "0.0.1",
+  "repository": "https://github.com/ANDRIANALISOA-sylvere/DevMood",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -12,10 +13,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "devmood.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "devmood.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
