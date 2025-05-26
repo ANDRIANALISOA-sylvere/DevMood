@@ -3,6 +3,7 @@
   "displayName": "DevMood",
   "description": "Emotional Analytics for VS Code Real-time mood detection for developers",
   "version": "1.0.0",
+  "publisher": "A. Joséphin Sylvère",
   "repository": "https://github.com/ANDRIANALISOA-sylvere/DevMood",
   "engines": {
     "vscode": "^1.100.0"
@@ -19,33 +20,12 @@
       {
         "command": "devmood.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "devmood.showPanel",
+        "title": "Afficher DevMood"
       }
-    ],
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "devmood",
-          "title": "DevMood",
-          "icon": "media/Devicon.svg"
-        }
-      ]
-    },
-    "views": {
-      "devmood": [
-        {
-          "id": "devMoodHumour",
-          "name": "Humeur actuelle"
-        },
-        {
-          "id": "devMoodStats",
-          "name": "Statistiques"
-        },
-        {
-          "id": "devMoodTips",
-          "name": "Conseils"
-        }
-      ]
-    }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
